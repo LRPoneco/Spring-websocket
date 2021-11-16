@@ -1,0 +1,26 @@
+#div{width: 600px;height: 500px;}
+#div div{width:100%;display: inline-block;padding: 0px;}
+#div img{width: 40px;height: 40px}
+#div li{list-style: none}
+.right{float: right;}
+.left{float: left}
+.left,.right{padding: 10px;}
+.left li,.right li{display: inline-table}
+.div ul{padding: 0px;margin: 0px}
+#text{width: 260px;height: 54px}
+#frinddiv,#text,#div{overflow:auto;resize:none}
+#frinddiv::-webkit-scrollbar,#text::-webkit-scrollbar,#div::-webkit-scrollbar{width: 1px;}
+#frinddiv::-webkit-scrollbar-thumb,#text::-webkit-scrollbar-thumb,#div::-webkit-scrollbar-thumb{background: #31acfb}
+.cueright,.cueleft{border-radius: 10px;}
+.cueright p,.cueleft p{margin:5px}
+.cueleft{background:#31acfb}
+.cueright{background: #cccccc}
+.table{padding: 0px;margin: 0px;border-collapse: collapse; border: aliceblue 1px solid}
+#frinddiv{width: 300px;height: 560px;}
+#frinddiv ul:hover{background: #cccccc}
+#frinddiv li{list-style: none;padding: 0px;margin: 0px}
+.friendul li{display: inline-table;}
+.friendul img{width: 40px;height: 40px;float: left}
+.xuanze li{display: inline-table;margin: 0px}
+.xuanze span{display: inline-block;margin: 0px}
+.spanfl{border-radius:10px;text-align:center;float:right;margin-top: 5px;margin-right: 5px;background: #f11d38;font-size: 4px;width: 15px;height: 15px;}
